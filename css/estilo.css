@@ -1,0 +1,35 @@
+body {
+    background: url("wallpaper.jpg") top center no-repeat fixed;
+    background-size: cover;
+}
+.botao {
+    position: absolute;
+    background-color: #273747;
+    color: white;
+    padding: 5px;
+    box-shadow: 2px 2px 1px #aaaaaa;
+
+
+}
+.classe:before{
+    content: "Comprar passagens aéreas";
+    font: 10pt Arial;
+    font-weight: bold;
+    color: white;
+    background-color: #273747;
+    padding: 5px;
+    display: block;
+    position: relative;
+    top: -10px;
+    left: -10px;
+    width: 560px;
+
+}
+
+.classe{
+    background-color: rgba(255,255,255,.8);
+    margin: 110px auto 100px auto;
+    padding: 10px;
+    width: 550px;
+    min-height:300px;
+}

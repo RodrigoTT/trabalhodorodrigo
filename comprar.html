@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="css/estilo.css">
+    <meta charset="UTF-8">
+    <title>Comprar passagem</title>
+</head>
+<body>
+<div class = "classe">
+    <form method = "POST" action = comprar.php>
+        <fieldset>
+        <label for = "name">Nome:</label>
+        <input type = "text" id = "name" name = "name"/>
+
+        <br/><br/>
+
+        <label for = "sobre">Sobrenome:</label>
+        <input type = "text" id = "sobre" name = "sobre"/>
+
+        <br/><br/>
+
+        <label for = "adultos"> Qtde. adultos:</label>
+        <input type = "number" id = "adultos" name = "aqtde"/>
+
+        <br/><br/>
+        <label for = "crianças"> Qtde. crianças:</label>
+        <input type = "number" id = "crianças" name = "cqtde"/>
+
+        <br/><br/>
+        Preferência de horário:
+            <br/>
+        <input type = "radio" id = "horario" name = "horario" value = "Manhã" checked/>
+        <label for = "horario">Manhã</label>
+
+        <input type = "radio" id = "horario" name = "horario" value = "Tarde"/>
+        <label for = "horario">Tarde</label>
+
+        <input type = "radio" id = "horario" name = "horario" value = "Noite"/>
+        <label for = "horario">Noite</label>
+
+        <input type = "radio" id = "horario" name = "horario" value = "Madrugada"/>
+        <label for = "horario">Madrugada</label>
+        <input type = "submit" value = "Pedir Passagem!" class = "botao"/>
+        </fieldset>
+        <br/><br/>
+        <a href = "index.html" class = "botao">Home</a>
+    </form>
+
+</div>
+
+</body>
+</html>
